@@ -10,7 +10,8 @@
 body{
 margin: 0%;
 padding: 0%;
-background: #ffffff;
+background: #000000;
+color: white;
 }
 
 .Search-box{
@@ -23,13 +24,13 @@ color: rgb(255, 255, 255);
 }
 
 h1{
-    border-top: 2px solid rgb(116, 29, 29);
+    border-top: 2px solid rgb(0, 0, 0);
   }
   
   .centreer {
     display: flex;
   }
   .foto3{
-    height: 900px;
+    height: 650px;
     width: 1420px;
   }
