@@ -23,7 +23,7 @@ body {
 }
 
 .Navigatie-bovenaan a {
-  color: rgb(14, 126, 255);
+  color: rgb(0, 0, 0);
 }
 
 h1 {
@@ -39,9 +39,4 @@ h1 {
   width: 1420px;
 }
 
-.Academie {
-  height: 90px;
-  width: 90px;
-  
-  
-}
+
