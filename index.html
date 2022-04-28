@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eind-site Pince</title> <link rel="stylesheet" href="style.css">
+    <title>Eind-site Pince</title> <link rel="stylesheet" href="style.css"> <script src=""></script>
 </head>
 <body>
  <ul class="Navigatie-bovenaan"> 
@@ -17,4 +17,51 @@
     <li><a href="./contact/index.html">Contact</a></li>
     <input type="text" placeholder="Type To Search">
 </ul>
-<img class="foto3" src="image/tekenkunst Patsy.jpg" alt="">
+
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+
+<body>
+
+
+
+<div class="w3-content w3-section" >
+  <img class="foto3" src="image/tekenkunst Patsy.jpg" style=" height: 650px;
+  width: 1420px;">
+  <img class="foto3" src="image/Portaels12.jpg" style=" height: 650px;
+  width: 1420px;">
+  <img class="foto3" src="image/Portaels21.jpg" style=" height: 650px;
+  width: 1420px;">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("foto3");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
+
