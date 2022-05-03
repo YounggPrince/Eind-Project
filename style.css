@@ -3,13 +3,9 @@
   justify-content: space-around;
   list-style: none;
   align-items: center;
-
-}
-
-.Navigatie-bovenaan {
   background-color: #ffffff;
+  
 }
-
 body {
   margin: 0%;
   padding: 0%;
@@ -17,14 +13,19 @@ body {
   color: rgb(255, 255, 255);
 }
 
+.link{
+color: #000000;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .Search-box {
   display: flex;
   justify-content: flex-end;
 }
 
-.Navigatie-bovenaan a {
-  color: rgb(0, 0, 0);
-}
+
+
+
 
 h1 {
   border-top: 2px solid rgb(255, 255, 255);
@@ -92,74 +93,3 @@ body {
   }
 }
 
-.Navigatie-bovenaan svg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  font: 700 200px/200px Catamaran, sans-serif;
-  overflow: hidden;
-}
-
-.page,
-.page a {
-  cursor: none;
-}
-
-.Navigatie-bovenaan nav {
-  padding: 40px 0;
-}
-
-
-.Navigatie-bovenaan li {
-  list-style: none;
-  padding: 0 10px;
-}
-
-.Navigatie-bovenaan li>a {
-  color: #000;
-  text-decoration: none;
-  padding: 20px 10px;
-  position: relative;
-}
-
-.Navigatie-bovenaan :hover:after {
-  width: 100%;
-  right: auto;
-  left: 0;
-}
-
-.Navigatie-bovenaan :after {
-  content: "";
-  width: 0;
-  height: 2px;
-  background-color: #000;
-  position: absolute;
-  left: auto;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  transition: all 0.3s ease-in;
-
-}
-
-.svg-txt-filled {
-  fill: #000;
-  stroke: #000;
-  stroke-width: 2px;
-}
-
-.svg-txt-stroked {
-  fill: none;
-  stroke: #000;
-  stroke-width: 2px;
-}
-
-.circle-cursor {
-  position: fixed;
-  left: 0;
-  top: 0;
-  pointer-events: none;
-  border-radius: 50%;
-}
