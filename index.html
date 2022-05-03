@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eind-site Pince</title> <link rel="stylesheet" href="style.css"> <script src=""></script>
+    <title>Eind-site Pince</title> <script src="script.js"defer></script>  <link rel="stylesheet" href="style.css">  
 </head>
 <body>
  <ul class="Navigatie-bovenaan"> 
@@ -33,26 +33,13 @@
   width: 1430px;">
 </div>
 
-<script>
-var myIndex = 0;
-carousel();
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("foto3");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none"; 
-     
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-</script>
 
 </body>
 </html>
+
+
+
 
 
 

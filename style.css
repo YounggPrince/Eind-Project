@@ -3,7 +3,7 @@
   justify-content: space-around;
   list-style: none;
   align-items: center;
- 
+
 }
 
 .Navigatie-bovenaan {
@@ -37,17 +37,20 @@ h1 {
 * {
   margin: 0;
 }
+
 body {
   height: 100vh;
   width: 100vw;
   background: #18191f;
 }
+
 .container {
   display: flex;
   align-items: center;
   height: 100vh;
   width: 100vw;
 }
+
 #apple,
 #twitter,
 #github,
@@ -66,12 +69,15 @@ body {
   text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
     0 0 200px #0072ff;
 }
+
 #twitter {
   animation-delay: 0.3s;
 }
+
 #facebook {
   animation-delay: 0.7s;
 }
+
 #github {
   animation-delay: 0.1s;
 }
@@ -80,14 +86,80 @@ body {
   from {
     filter: hue-rotate(0deg);
   }
+
   to {
     filter: hue-rotate(360deg);
   }
 }
 
+.Navigatie-bovenaan svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  font: 700 200px/200px Catamaran, sans-serif;
+  overflow: hidden;
+}
+
+.page,
+.page a {
+  cursor: none;
+}
+
+.Navigatie-bovenaan nav {
+  padding: 40px 0;
+}
 
 
+.Navigatie-bovenaan li {
+  list-style: none;
+  padding: 0 10px;
+}
 
+.Navigatie-bovenaan li>a {
+  color: #000;
+  text-decoration: none;
+  padding: 20px 10px;
+  position: relative;
+}
 
+.Navigatie-bovenaan :hover:after {
+  width: 100%;
+  right: auto;
+  left: 0;
+}
 
+.Navigatie-bovenaan :after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  left: auto;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.3s ease-in;
 
+}
+
+.svg-txt-filled {
+  fill: #000;
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+.svg-txt-stroked {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+.circle-cursor {
+  position: fixed;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  border-radius: 50%;
+}
