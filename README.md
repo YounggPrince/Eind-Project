@@ -1,6 +1,4 @@
-** 19/04/2022
-- zal soort van design voorstellen
-- links fixen
+
 
 ## 05/05/2022
 - beteren namen geven contacten
