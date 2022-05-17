@@ -68,10 +68,23 @@ h2{
 }
 .imageateliers{
   display: flex;
-  margin-left: 700px;
-  height: 900px;
+  margin-left: 750px;
+  margin-bottom: 200px; 
+   
 }
-
+.foto{
+  width: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+ .video{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding-bottom: 100px;
+   margin-top: 300px;
+ }
 
 .location{
   display: flex;
@@ -246,18 +259,7 @@ h2{
   }
 }
 
-.foto{
-  width: 300px;
-  width: 300px;
-  display: flex;
-  justify-content: space-around;
-}
- .video{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   padding-bottom: 100px;
- }
+
 
 
 
