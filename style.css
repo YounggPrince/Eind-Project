@@ -4,6 +4,7 @@
   list-style: none;
   align-items: center;
   background-color: #ffffff;
+
 }
 
 body {
@@ -29,13 +30,14 @@ body {
 }
 
 .contacten {
-font-size: 18px;
+font-size: 20px;
  color: rgb(0, 0, 0);
 }
 
 .icon {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
+  
 }
 
 .pimg {
@@ -58,6 +60,7 @@ h1 {
 h2{
   color: #000000;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
 
 .textateliers{
@@ -70,6 +73,8 @@ h2{
   display: flex;
   margin-left: 750px;
   margin-bottom: 200px; 
+  transform: scale(1.2);
+  transition: all 1s ease-in-out;
    
 }
 .foto{
@@ -98,7 +103,7 @@ h2{
 .site-footer
 {
   background-color:#26272b;
-  padding:45px 0 20px;
+  padding: 20px;
   font-size:15px;
   line-height:24px;
   color:#737373;

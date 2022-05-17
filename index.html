@@ -7,17 +7,70 @@
     <title>Eind-site Pince</title> <script src="script.js"defer></script>  <link rel="stylesheet" href="style.css">  
 </head>
 <body>
- <ul class="Navigatie-bovenaan"> 
-    <img  class="Academie"  src="image/Academie kk.png" alt="">
-    <li><a class="links" href="./Ateliers/index.html">Ateliers</a></li>
-    <li><a class="links" href="./Kunsttheorie/index.html">Kunsttheorie</a></li>
-    <li><a class="links" href="activiteiten/index.html">Activiteiten</a></li>
-    <li><a class="links" href="./Schrijf in/index.html"> Schrijf in </a></li>
-    <li><a class="links" href="./Goed om te weten/index.html"> Goed om te weten </a></li>
-    <li><a class="links" href="./contact/index.html">Contact</a></li>
-    <input type="text" placeholder="Type To Search">
-</ul>
+ 
 
+<!--NAV CSS niet aanpassen, behalve kleur-->
+<link rel="stylesheet" href="nav.css">
+<!-- deze CSS mag je aanpassen zoveel je wil -->
+<link rel="stylesheet" href="style.css">
+<!-- deze CSS is voor font-awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+<header id="">
+    <nav>
+  
+        <label for="drop" class="toggle">Menu <i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" id="drop" />
+        <ul class="Navigatie-bovenaan">
+          <img  class="Academie"  src="image/Academie kk.png" alt="">
+      
+            <li>
+                <!-- om dropdown te maken, doe je zo:  -->
+                <label for="drop-1" class="toggle">Ateliers +</label>
+                <a href="./Ateliers/index.html">Ateliers</a>
+                <input type="checkbox" id="drop-1" />
+                <ul>
+                    <li><a href="#">Themes and stuff</a></li>
+                    <li><a href="#">Plugins</a></li>
+                    <li><a href="#">Tutorials</a></li>
+                </ul>
+
+            </li>
+            <li>
+                <!-- om dropdown te maken, doe je zo:  -->
+                <label for="drop-2" class="toggle">Kunsttheorie +</label>
+                <a href="./Kunsttheorie/index.html">Kunsttheorie</a>
+                <input type="checkbox" id="drop-2" />
+                <ul>
+                    <li>
+                        <a href="#">Resources</a>
+                    </li>
+                    <li>
+                        <a href="#">Links</a>
+                    </li>
+                    <li>
+                        <!-- dan om een 2e niveau te krijgen in je dropdown doe je dit hier -->
+                        <label for="drop-3" class="toggle">Tutorials +</label>
+                        <a href="./activiteiten/index.html">Activiteiten</a>
+                        <input type="checkbox" id="drop-3" />
+
+                        <ul>
+                            <li><a href="#">HTML/CSS</a></li>
+                            <li><a href="#">jQuery</a></li>
+                            <li><a href="#">Other</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="./Schrijf in/index.html">Schrijf in</a></li>
+            <li><a href="./Goed om te weten/index.html">Goed om te weten</a></li>
+            <li><a href="./contact/index.html">Contact</a></li>
+            
+            <input type="text" placeholder="Type To Search">
+        </ul>
+    </nav>
+</header>
 
 
 <div >
