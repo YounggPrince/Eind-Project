@@ -8,3 +8,8 @@
 ## 10/05/2022
 - meer witruimte, je kan padding hiervoor gebruiken (in style)
 - zorg dat de dingen niet tegen in elkaar plakken
+
+# 19/05/2022
+- geen spaties of speciale tekens in bestanden / links
+- W3C valid, check dit geregeld, hele site moet valid zijn
+- geen inline styling
