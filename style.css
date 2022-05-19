@@ -115,6 +115,11 @@ h2 {
   height: 300px;
 }
 
+.video article {
+  display: flex;
+  justify-content: space-around;
+}
+
 .location {
   display: flex;
   justify-content: space-around;

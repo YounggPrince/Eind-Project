@@ -17,3 +17,21 @@
 - <p> tag voor paragrafen
 - gebruik <ul> en <li> waar relevant, zie voorbeeld in code
 - witruimte
+
+
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 100px;
+    margin-top: 300px;
+    padding: 51px;
+}
+
+video article {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 20px;
+    align-items: center;
+    /* row-gap: 26px; */
+}
