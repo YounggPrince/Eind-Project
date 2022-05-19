@@ -60,9 +60,6 @@ body {
 .icon {
   width: 23px;
   height: 23px;
-  
-
-
 }
 
 .pimg {
@@ -85,17 +82,18 @@ h1 {
 h2 {
   color: #000000;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+  padding-left: 50px;
 }
 
 .textateliers {
   color: #000000;
   font-size: 18px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 50px;
 
 }
 
-.imageateliers {
+.imageateliers > img:hover {
   display: flex;
   margin-left: 750px;
   margin-bottom: 200px;
@@ -128,6 +126,52 @@ h2 {
   height: 400px;
   padding-bottom: 100px;
   padding-left: 150px;
+}
+
+.image-codepen {
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+  margin: 25px auto;
+  display: grid;
+  grid-template-columns: 600px 600px 600px;
+}
+
+.image-codepen img {
+  animation-name: animatie;
+  animation-duration: 45s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes animatie {
+  8%, 16% {
+        transform: translatex(-600px);
+  }    
+  18%, 26% {
+        transform: translatex(-1200px);
+  }
+  28%, 36% {
+        transform: translatex(-1200px) translatey(-400px);
+  }
+  38%, 46% {
+        transform: translatex(-600px) translatey(-400px);
+  }
+  48%, 56% {
+        transform: translatex(0px) translatey(-400px);
+  }
+  58%, 66% {
+        transform: translatex(0px) translatey(-800px);
+  }
+  68%, 76% {
+        transform: translatex(-600px) translatey(-800px);
+  }
+  78%, 86% {
+        transform: translatex(-1200px) translatey(-800px);
+  }
+  92%, 98% {
+        transform: translatex(0px) translatey(0px);
+  }
 }
 
 .site-footer {
@@ -295,3 +339,4 @@ h2 {
     font-weight: 600
   }
 }
+
