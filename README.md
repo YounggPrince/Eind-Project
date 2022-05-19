@@ -10,14 +10,13 @@
 - zorg dat de dingen niet tegen in elkaar plakken
 
 # 19/05/2022
-- geen spaties of speciale tekens in bestanden / links
-- W3C valid, check dit geregeld, hele site moet valid zijn
-- geen inline styling
+- geen spaties of speciale tekens in bestanden / links #gedaan
+- geen inline styling #gedaan
 - gebruik vetgedrukt bij de vragen, of bepaalde woorden die gehighlith moet worden
 - <p> tag voor paragrafen
 - gebruik <ul> en <li> waar relevant, zie voorbeeld in code
 - witruimte
-
+- W3C valid, check dit geregeld, hele site moet valid zijn
 
 .video {
     display: flex;

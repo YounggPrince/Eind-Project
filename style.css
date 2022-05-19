@@ -42,10 +42,21 @@ body {
   padding-bottom: 44px;
   padding-top: 44px;
 }
+.alie{
+  height: 300px;
+  width: 500px;
+}
 
 .flex {
   display: flex;
   justify-content: space-between;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px;
 }
 
 .flex-contact {
@@ -55,7 +66,11 @@ body {
   padding: 10px;
 }
 
-
+h3{
+  color: #000000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 0.1px;
+}
 
 .icon {
   width: 23px;
@@ -85,6 +100,7 @@ h2 {
   padding-left: 50px;
 }
 
+
 .textateliers {
   color: #000000;
   font-size: 18px;
@@ -93,7 +109,11 @@ h2 {
 
 }
 
-
+.foto3{
+  height: 655px;
+  width: 1430px; padding-bottom: 100px;
+  display: flex;
+}
 
 .foto {
   width: 300px;
@@ -366,4 +386,8 @@ article {
   display: flex;
   justify-content: space-around;
 
+}
+
+main {
+  padding: 20px;
 }
