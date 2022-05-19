@@ -13,3 +13,7 @@
 - geen spaties of speciale tekens in bestanden / links
 - W3C valid, check dit geregeld, hele site moet valid zijn
 - geen inline styling
+- gebruik vetgedrukt bij de vragen, of bepaalde woorden die gehighlith moet worden
+- <p> tag voor paragrafen
+- gebruik <ul> en <li> waar relevant, zie voorbeeld in code
+- witruimte
