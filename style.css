@@ -34,7 +34,9 @@ body {
 
 
 }
-
+.atelietekst{
+  font-size: 25px;
+}
 .centreer-onder-elkaar {
   flex-direction: column;
   align-items: center;
@@ -42,8 +44,9 @@ body {
   padding-bottom: 44px;
   padding-top: 44px;
 }
-.alie{
-  height: 300px;
+
+.alie {
+  height: 400px;
   width: 500px;
 }
 
@@ -52,7 +55,7 @@ body {
   justify-content: space-between;
 }
 
-.flex-center{
+.flex-center {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -66,7 +69,7 @@ body {
   padding: 10px;
 }
 
-h3{
+h3 {
   color: #000000;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding-left: 0.1px;
@@ -109,9 +112,10 @@ h2 {
 
 }
 
-.foto3{
+.foto3 {
   height: 655px;
-  width: 1430px; padding-bottom: 100px;
+  width: 1430px;
+  padding-bottom: 100px;
   display: flex;
 }
 
@@ -390,4 +394,13 @@ article {
 
 main {
   padding: 20px;
+}
+
+.ateliers img {
+  filter: saturate(100%);
+  transition: filter 0.40s ease-in;
+}
+
+.ateliers img:hover {
+  filter: saturate(200%);
 }
